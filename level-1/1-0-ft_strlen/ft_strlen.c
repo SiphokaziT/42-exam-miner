@@ -15,9 +15,11 @@ int		ft_strlen(char *str)
 	int i;
 
 	i = 0;
-	while(str[i])
+	while(str[i] != '0')
+	{
 		i++;
-	return (i);
+}
+return (0);
 }
 
 // DO NOT SUBMIT ANYTHING BELOW
